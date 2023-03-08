@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    background-color: black;
+}
+/* Inicio*/
+header{
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+
+.logo{
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+span ul > li {
+    display: inline;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    padding: 10px;
+    
+    
+}
+span ul > li > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.438);
+}
+span ul > li > a:hover {
+    
+    color: black;
+}
+.opcoes{
+    margin-top: 15px;
+    
+    
+}
+.opcoes_esqueda{
+    margin-left: 500px;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+#liesqueda:hover{
+    border: 2px solid rgba(0, 0, 0, 0.332);
+    background-color: white;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    
+}
+#lidireita:hover{
+    border: 2px solid rgba(0, 0, 0, 0.332);
+    background-color: white;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+}
+
+/*Meio*/
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    height: 500px;
+}
+.esquerda{
+    margin-left: 30px;
+    padding: 100px;
+    font-weight: bold
+}
+
+h2{
+    font-size: 2.8rem;
+    padding: 5px;
+}
+
+
+
+button{
+   margin-left: 5px;
+   margin-top: 50px;
+   width: 150px;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   background-color: black;
+   color: white;
+}
+button:hover{
+    border: 2px solid black;
+    background-color:white;
+    color: black;
+    transition: .6s;
+}
+/**/
+
+.direita{
+
+    width: 675px;
+    height: 450px;
+    margin-left: 650px;
+    margin-top: -450px;
+}
+
+
+/*Ajustes de Posição e Tamanho da imagem*/
+img{
+    width: 500px;
+    height: 450px;
+}
+
+/**/
+
+/*Final*/
+footer{
+    background-color: white;
+    height: 50px;
+}
+
+.icons{
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 5px;
+}
